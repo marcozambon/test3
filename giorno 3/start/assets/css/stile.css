@@ -20,6 +20,7 @@ header {
 h1 {
     color: white;
     font-size: 1.2em;
+    line-height: 1.8em;
 
 }
 
@@ -33,10 +34,9 @@ span {
     color: #00a0c6;
     background-color: white;
     border-color: white;
+    line-height: 1.8em;
 }
 
-
-/* MAIN */
 h2 {
     color: #00a0c6;
     font-size: 1.2rem;
@@ -64,21 +64,23 @@ address {
     text-align: center;
 }
 
-a::selection {
+a:hover {
     font-weight: bold;
     color: red;
     text-decoration: underline;
 }
 
+
 #citazione {
     font-style: italic;
-    font-size: 0.8em;
+    font-size: 0.7em;
     text-align: center;
     font-weight: bold;
     border-color: rgb(204, 198, 198);
     background-color: rgb(166, 160, 160);
     padding: 5px;
     border: 1px;
+    border-radius: 30px;
 }
 
 strong {
@@ -96,7 +98,7 @@ mark {
 footer {
     background-color: rgb(90, 88, 88);
     color: white;
-    border-top: 4px solid blue;
+    border-top: 4px solid #00a0c6;
     font-size: 0.8em;
     text-align: center;
 }
@@ -109,23 +111,25 @@ footer {
 
 b {
     font-weight: bold;
-    }
-    
-    #indent {
-        text-indent: 30px;
-    }
-    
-    li {list-style-type: circle;
-    list-style-type: disc;}
-    dd   {margin-left: 40px;}
+}
 
-hr {border: 1px dashed darkgrey;}
+ul {
+    margin: 1, 5cm;
 
-main{content: normal;}
+}
 
+li {
+    margin: 1, 5cm;
+}
 
+dd {
+    margin-left: 40px;
+}
 
-/* ELEMENTI NEL MAIN */
+hr {
+    border: 3px dashed darkgrey;
+}
 
-/* FOOTER */
-    {}
+small {
+    color: darkgray;
+}
